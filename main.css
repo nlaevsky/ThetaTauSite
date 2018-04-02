@@ -1,0 +1,57 @@
+* {
+margin: 0;
+padding: 0;
+}
+
+#splash {
+  height: 100vh;
+  width: 100vw;
+  background-image: url("assets/jpg/brothers.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+#splash h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 85px;
+  color:white;
+  text-shadow: 1px 2px #000000;
+  margin: 0px;
+  text-align: center;
+  position: relative;
+  top: -3px;
+}
+
+#splash p {
+  font-family: 'Lato', sans-serif;
+  font-size: 26px;
+  color: #000;
+  text-align: center;
+}
+
+#splash #links {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100vw;
+  position: absolute;
+  bottom: 10px;
+}
+
+#splash #links .link {
+  font-family: 'Lato', sans-serif;
+  color: #000;
+  background-color: #fff;
+  padding: 15px;
+  margin: 10px;
+  border: solid 1px #000;
+  text-decoration: none;
+}
+
+#splash #links .link:hover {
+  border-color: #fff;
+  color: #fff;
+  background-color: #000;
+}
