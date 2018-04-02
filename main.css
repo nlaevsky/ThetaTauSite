@@ -13,7 +13,7 @@ padding: 0;
 
 #splash h1 {
   font-family: 'Playfair Display', serif;
-  font-size: 85px;
+  font-size: 86px;
   color:white;
   text-shadow: 1px 2px #000000;
   margin: 0px;
@@ -24,7 +24,7 @@ padding: 0;
 
 #splash p {
   font-family: 'Lato', sans-serif;
-  font-size: 26px;
+  font-size: 40px;
   color: #000;
   text-align: center;
 }
@@ -40,8 +40,9 @@ padding: 0;
   bottom: 10px;
 }
 
-#splash #links .link {
+#splash #links a {
   font-family: 'Lato', sans-serif;
+  font-size: 28px;
   color: #000;
   background-color: #fff;
   padding: 15px;
@@ -50,8 +51,35 @@ padding: 0;
   text-decoration: none;
 }
 
-#splash #links .link:hover {
+#splash #links a:hover {
   border-color: #fff;
   color: #fff;
   background-color: #000;
+}
+
+@media only screen and (max-width: 720px) {
+  #splash h1 {
+    font-size: 86px;
+  }
+  #splash p {
+    font-size: 40px;
+  }
+  #splash #links a {
+    font-size: 22px;
+    margin: 5px;
+  }
+}
+
+
+@media only screen and (max-width: 480px) {
+  #splash h1 {
+    font-size: 80px;
+  }
+  #splash p {
+    font-size: 40px;
+  }
+  #splash #links a {
+    font-size: 32px;
+    margin: 5px;
+  }
 }
