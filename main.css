@@ -83,3 +83,36 @@ padding: 0;
     margin: 5px;
   }
 }
+
+#mobile-links {
+  width: 100vw;
+  top: 0px;
+  display: none;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #a11019;
+}
+
+#mobile-links a {
+  font-size: 20px;
+  color: #ffdb86;
+  padding: 10px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+#mobile-links a:hover {
+  color: #a11019;
+  background-color: #ffdb86;
+}
+
+#mobile-open a {
+  display: none !important;
+}
+
+@media only screen and (max-width: 768px) {
+  #mobile-links {
+    display: flex;
+  }
+}
